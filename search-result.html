@@ -7,7 +7,7 @@
 	<!--[if IE]>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<![endif]-->
-	<title>Home</title>
+	<title>Search Result</title>
 	<link href="assets/css/style.css" rel="stylesheet" />
 	<!-- BOOTSTRAP STYLE SHEET -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -41,11 +41,10 @@
 						<a class="navbar-brand" href="home.html"><img src="assets/img/qa_logo.jpg" alt="Q &amp; A"></a>
 					</div>
 				</div>
-
 				<div class="col-md-10">
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="home.html" class="active">HOME</a></li>
+							<li><a href="home.html">HOME</a></li>
 							<li><a href="ask-question.html">Ask Question</a></li>
 							<li><a href="user-questions.html">User</a></li>
 						</ul>
@@ -62,36 +61,22 @@
 	</div><!-- /.navbar -->
 		
 	<div class="btn-group btn-breadcrumb">
-		<div class="container">
-			<h1 class="font-white text-center">Welcome to Ask me, Awesome Questions &amp; Answer</h1>
+		 <div class="container">
+			<a href="#">Home</a>
+			<a href="#">User</a>
+			<a class="link" href="#">Search Result</a>
+			<h1 class="font-white text-center">Search results</h1>
 
-			<p class="text-center font-white">Dont be shy. Ask something.</p>
-
-			<br>
-
+			<p class="text-center font-white">Found 473 results</p>
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 					<form>
 						<div class="form-group">
 							<div class="inner-addon-lg left-addon">
 								<i class="glyphicon glyphicon-search"></i>
-								
-								<div class="input-group">
-									<input type="text" class="form-control no-radius input-lg" id="ask-input" placeholder=" Ask a question">
-
-									<span class="input-group-btn">
-										<button id="homeTopAskBtn" class="btn btn-default no-radius theme-button-head" type="button">&nbsp;Ask&nbsp;</button>
-									</span>
-								</div>
-							</div>
-						</div>
-
-						<div class="form-group">
-							<div class="inner-addon-lg left-addon">
-								<i class="glyphicon glyphicon-search"></i>
 
 								<div class="input-group">
-									<input type="text" class="form-control no-radius input-lg" id="search-input" placeholder=" Search questions.">
+									<input type="text" class="form-control no-radius input-lg" id="search-input" placeholder=" Search questions." value="LOREM IPSUM">
 
 									<span class="input-group-btn">
 										<button id="homeTopSearchBtn" class="btn btn-default no-radius theme-button-head" type="button">Search</button>
@@ -100,13 +85,6 @@
 							</div>
 						</div>
 					</form>
-
-					<p class="text-center font-white">or</p>
-
-					<p class="text-center">
-						<a href="register.html" class="btn btn-default no-radius theme-button btn-lg join-now-btn">Join Now</a>
-						
-					</p>
 				</div>
 			</div>
 		</div>
@@ -169,15 +147,6 @@
 				<br>
 
 				<div class="col-md-8">
-					<ul class="nav nav-tabs home-nav">
-						<li role="presentation" class="active" ><a class="active" href="#">Recent Questions</a></li>
-						<li role="presentation"><a href="#">Most Responses</a></li>
-						<li role="presentation"><a href="#">Recently Answered</a></li>
-						<li role="presentation"><a href="#">No Answers</a></li>
-					</ul>
-
-					<br>
-
 					<div class="questions-list clearfix">
 						<article class="question-answer-bit">
 							<div class="row">
@@ -367,6 +336,28 @@
 							</footer><!-- /.bit-metadata -->
 						</article><!-- /.question -->
 					</div><!-- /.questions-list -->
+                        <div data-example-id="simple-pagination" class="bs-example">
+							<nav>
+								  <ul class="pagination">
+										<li>
+										  <a aria-label="Previous" href="user-questions.html#">
+											<span aria-hidden="true">«</span>
+										  </a>
+										</li>
+										<li><a href="user-questions.html#" class="current">1</a></li>
+										<li><a href="user-questions.html#">2</a></li>
+										<li><a href="user-questions.html#">3</a></li>
+										<li><a href="user-questions.html#">4</a></li>
+										<li><a href="user-questions.html#">5</a></li>
+										<li><a href="user-questions.html#">...</a></li>
+										<li>
+										  <a aria-label="Next" href="user-questions.html#">
+											<span aria-hidden="true">»</span>
+										  </a>
+										</li>
+								  </ul>
+							</nav>
+						</div>
 				</div>
 			</div>
 		</section>

@@ -849,6 +849,27 @@ select {
     border-width: 1px !important;
 }
 
+.pagination {
+  & > li {
+    & > a {
+      color: $brand-color !important;      
+      &:hover,
+      &:focus,
+      &:active {
+        color: $brand-color !important; 
+      }
+      &.current {
+        color: white !important;
+        &:hover,
+        &:focus,
+        &:active {
+          color: white !important;
+        }
+      }
+    }
+  }
+}
+
 // Site Footer
 @import "site-footer";
 

@@ -901,6 +901,19 @@ select {
   border-width: 1px !important;
 }
 
+.pagination > li > a {
+  color: #e06666 !important;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > a:active {
+  color: #e06666 !important;
+}
+.pagination > li > a.current {
+  color: white !important;
+}
+.pagination > li > a.current:hover, .pagination > li > a.current:focus, .pagination > li > a.current:active {
+  color: white !important;
+}
+
 /* --- Site Footer --- */
 #contentinfo {
   background: #e06666;
