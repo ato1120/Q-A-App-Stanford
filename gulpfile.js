@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 
 // Watch Changes in Files
 gulp.task('watchFiles', function() {
-  gulp.watch('./assets/js/*.js', ['taskCoffee', 'reloadPageScripts']);
+  gulp.watch('./assets/js/*.js', ['reloadPageScripts']);
   gulp.watch('./scss/*.scss', ['convertSass', 'reloadPage']);
   gulp.watch('./*.html', ['reloadPageScripts']);
 });
@@ -36,6 +36,7 @@ gulp.task('convertSass', function() {
       sass: 'scss'
     }))
     .pipe(gulp.dest('./assets/css'));
+  browserSync.reload({stream:true});
 });
 
 gulp.task('default', ['browserSync', 'convertSass', 'watchFiles']);
