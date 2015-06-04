@@ -1,3 +1,8 @@
+/*css to remove hover link effect*/
+a:hover, a:focus {
+    text-decoration: none;
+	}
+
 /* line 4, ../../scss/style.scss */
 * {
   margin: 0;
@@ -476,7 +481,7 @@ footer {
   border: 0;
   color: #fff;
   display: inline;
-  margin: 0 5px;
+  margin: 0 -8px;
   padding: 11px 10px;
   /*box-shadow:2px 1px 1px #000*/
   height: 46px;
@@ -730,6 +735,9 @@ footer {
   color: #fff;
   background-color: #d65051;
   border: 2px solid #d65051;
+}
+.nav-tabs > li a:hover{
+color:#E06666;
 }
 
 /* line 610, ../../scss/style.scss */
@@ -1103,14 +1111,14 @@ select {
   border: 0;
   background: none;
 }
-/* line 10, ../../scss/_homepage.scss */
+/* line 10, ../../scss/_homepage.scss 
 .homepage .home-nav li a {
   border: 0;
-}
-/* line 14, ../../scss/_homepage.scss */
+}*/
+/* line 14, ../../scss/_homepage.scss 
 .homepage .home-nav li a:hover, .homepage .home-nav li a:focus, .homepage .home-nav li a:active {
   border: 0;
-}
+}*/
 /* line 20, ../../scss/_homepage.scss */
 .homepage .question-answer-bit {
   background: white;
