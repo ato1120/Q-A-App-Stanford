@@ -33,6 +33,9 @@
 					font-family: sans-serif;
 					color: $brand-color;
 					margin-top: 10px;
+                    a {
+                      color: $brand-color;
+                    }
 					@media screen and (min-width: 768px) {
 						font-size: 20px;
 						line-height: 30px;
@@ -97,4 +100,15 @@
 			}
 		}
 	}
+  a.join-now-btn {
+    background-color: #333 !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &:hover,
+    &:focus,
+    &:active {
+      padding-top: 15px; 
+      padding-bottom: 15px;
+    }
+  }
 }
