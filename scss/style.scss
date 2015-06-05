@@ -89,6 +89,9 @@ a,img{
     padding: 18px 0;
     width: 100%;
 }
+.btn-breadcrumb.search .form-group {
+    margin-bottom: 0;
+}
 .btn-breadcrumb a:hover{
     color: #fff;
     text-decoration: none;
@@ -707,6 +710,21 @@ a .active {
 .pull-right li i {
     padding-left:0px;
 }
+/**Serch Page Begins**/
+.search-list{
+    margin-bottom: 25px;
+
+    .question-answer-bit{
+        .bit-title{
+            color: #E06666;
+        }
+
+        &:first-child .bit-title{
+            margin-top: 3px;
+        }    
+    }
+} 
+    
 
 @media screen and (max-width: 980px){
     #second{
