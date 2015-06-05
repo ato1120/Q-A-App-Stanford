@@ -2,11 +2,11 @@
 $brand-color: #e06666;
 
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 a,img{
-	text-decoration: none;
+    text-decoration: none;
 }
 .active {
     background-color: #e06666;
@@ -17,24 +17,24 @@ a,img{
 
 #about-admin .alert {
     width: 100%;
-	float: left;
-	margin-top: 50px;
-	color: #000;
+    float: left;
+    margin-top: 50px;
+    color: #000;
 }
 #about-admin h2 {
     border-bottom: 2px solid #000;
     font-size: 17px;
     margin: 0 0 16px;
     padding-bottom: 10px;
-	color: #666666;
-	font-size: 20px;
+    color: #666666;
+    font-size: 20px;
 }
 #about-admin h3 {
     border-bottom: 2px solid;
     font-size: 17px;
     margin: 0 0 16px;
     padding-bottom: 10px;
-	color: #000;
+    color: #000;
 }
 #about-admin h3 span {
     color: #5e90e7;
@@ -63,25 +63,25 @@ a,img{
         }
 .contact {
     float: right;
-	margin-top: 14px;
+    margin-top: 14px;
 }
 .contact li, .btn-breadcrumb a {
     display: inline;
     list-style: none;
-	background: url('../img/li_bg.png') no-repeat center right;
-	padding: 0 8px;
-	color: #fff;
+    background: url('../img/li_bg.png') no-repeat center right;
+    padding: 0 8px;
+    color: #fff;
 }
 .contact li:last-child, .btn-breadcrumb a:last-child{
-	background: none;
+    background: none;
 }
 .contact li  a{
-	color: #fff;
-	padding: 0 12px;
+    color: #fff;
+    padding: 0 12px;
 }
 .contact li  a:hover{
-	text-decoration: none;
-	color: #e06666;
+    text-decoration: none;
+    color: #e06666;
 }
 .btn-breadcrumb {
     background: #e06666;
@@ -89,12 +89,15 @@ a,img{
     padding: 18px 0;
     width: 100%;
 }
+.btn-breadcrumb.search .form-group {
+    margin-bottom: 0;
+}
 .btn-breadcrumb a:hover{
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 .link{
-	color: #000!important;
+    color: #000!important;
 }
 #about-admin img {
     float: left;
@@ -110,11 +113,11 @@ a,img{
 .about-list li {
     line-height: 32px;
     list-style: none;
-	color: #6f7271;
+    color: #6f7271;
 }
 .about-list i {
     padding-right: 10px;
-	color: #000000;
+    color: #000000;
 }
 #about-admin p {
     float: left;
@@ -129,15 +132,15 @@ a,img{
 .stats i {
     font-size: 26px;
     padding: 0 12px 0 0;
-	vertical-align: middle;
+    vertical-align: middle;
 }
 .stats span {
     margin-left: 20px;
 }
 .tags{
-	width: 100%;
-	float: left;
-	margin: 12px 0 !important;
+    width: 100%;
+    float: left;
+    margin: 12px 0 !important;
 }
 .tags li {
     background: #333333;
@@ -146,14 +149,14 @@ a,img{
     display: inline;
     margin: 0 5px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
+    box-shadow: 2px 3px 1px #000;
 }
 .tags li  a{
-	color: #ffffff;
+    color: #ffffff;
 }
 .table, tr, td{
-	border: 2px solid;
-	margin: 0!important;
+    border: 2px solid;
+    margin: 0!important;
 }
 footer {
     background: #999999;
@@ -166,7 +169,7 @@ footer {
     list-style: none;
 }
 .footer-box li a{
-	color:#000;
+    color:#000;
 }
 .footer-box li::before {
     content: "-";
@@ -178,15 +181,15 @@ footer {
 .copyright {
     background: #666666;
     border-bottom: 3px solid;
-	padding: 10px 0;
-	color: #fff;
+    padding: 10px 0;
+    color: #fff;
 }
 .copyright h5 {
     float: left;
-	font-size: 20px;
+    font-size: 20px;
 }
 .copyright span{
-	float: right;
+    float: right;
 }
 
 /* Edit profile */
@@ -204,15 +207,15 @@ footer {
     margin: 10px 0 0;
 }
 .edit .btn{
-	background: #e06666;
+    background: #e06666;
     border: 2px solid #000000;
     box-shadow: 2px 3px 1px #000000;
     color: #ffffff;
     display: inline;
     margin: 0 5px;
     padding: 5px 10px;
-	width: 100%;
-	border-radius: 0;
+    width: 100%;
+    border-radius: 0;
 }
 
 /* User answer */
@@ -224,8 +227,8 @@ footer {
 .question h1 {
     color: #e06666;
     font-size: 25px;
-	float: left;
-	margin: 0 0 20px 0px;
+    float: left;
+    margin: 0 0 20px 0px;
 }
 .list {
     border-bottom: 2px solid #cccccc;
@@ -236,26 +239,26 @@ footer {
     width: 100%;
 }
 .list li{
-	display: inline;
-	padding-right: 12px;
-	border: 0px none;
+    display: inline;
+    padding-right: 12px;
+    border: 0px none;
 }
 .list i {
     padding-right: 8px;
-	padding-right: 14px;
+    padding-right: 14px;
 }
 .q-btn{
-	background: #e06666;
+    background: #e06666;
     border: 2px solid #000000;
     box-shadow: 2px 3px 1px #000000;
     color: #ffffff;
     display: inline;
     padding: 5px 25px;
-	float: right;
+    float: right;
 }
 .q-btn:hover{
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 .list-view .fa-user {
     border: 0 none!important;
@@ -265,7 +268,7 @@ footer {
     padding-top: 0!important;
     padding-bottom: 0!important;
     padding-left: 0!important;
-	padding-right: 14px!important;
+    padding-right: 14px!important;
 }
 .text-warning {
     color: #ff9900!important;
@@ -282,7 +285,7 @@ footer {
     float: right;
 }
 .current{
-	background: #e06666!important;
+    background: #e06666!important;
 }
 
 
@@ -290,7 +293,7 @@ footer {
 
 
 .container .q-btn-home{
-	background: #e06666;
+    background: #e06666;
     border: 2px solid #000000;
     box-shadow: 2px 3px 1px #000000;
     color: #ffffff;
@@ -299,7 +302,7 @@ footer {
 }
 
 .container .r-btn-home{
-	background: grey;
+    background: grey;
     border: 2px solid #000000;
     box-shadow: 2px 3px 1px #000000;
     color: #ffffff;
@@ -336,17 +339,19 @@ footer {
     color:#fff;
     display:inline;
     margin:0 5px;
-    padding:5px 10px;
+    padding:5px 20px;
     // box-shadow:2px 3px 1px #000;
     font-family: sans-serif;
     text-transform: uppercase;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 20px;
-    padding-right: 20px;
     height: 50px;
     line-height: 50px;
     @include transition(all .2s ease-out);
+    &:link{
+        display: inline-block;
+        background:#333;
+    }
     &:hover {
         color: #e06666;
         padding-left: 20px;
@@ -358,6 +363,10 @@ footer {
         padding-bottom: 0;
         border: 0;
         @include box-shadow(rgba(black, .2) 0 1px 3px);
+    }
+    &:focus{
+        outline: none;
+        background: #333;
     }
 }
 
@@ -408,61 +417,61 @@ color:#c4484d;
   .theme-button-white{
      
      background: white;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: black;
     display: inline;
     margin: 0px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
      .modal .theme-button-red{
      
      background: #c4484d;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: black;
     display: inline;
     margin: 0px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
      .theme-button-red:active{
      
      background: #c4484d;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: black;
     display: inline;
     margin: 0px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
      
      .theme-button-red{
      
      color:white;
-	
+    
      }
      
      
      .theme-button-red:hover{
      
      background: #c4484d;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: black;
     display: inline;
     margin: 0px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
      .spacer{
-   	min-height:200px;
+    min-height:200px;
      }
      
      .reg-height{
@@ -472,37 +481,37 @@ color:#c4484d;
      .theme-button:active{
      
      background: #333333;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: #ffffff;
     display: inline;
     margin: 0 5px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
      .theme-button:hover{
      
      background: #525553;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: #ffffff;
     display: inline;
     margin: 0 5px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
      .theme-button:focus{
      
      background: #525553;
-   	 border: 2px solid #000000;
+     border: 2px solid #000000;
      color: #ffffff;
     display: inline;
     margin: 0 5px;
     padding: 5px 10px;
-	box-shadow: 2px 3px 1px #000;
-	
+    box-shadow: 2px 3px 1px #000;
+    
      }
      
 .theme-button:active {
@@ -634,122 +643,137 @@ a .active {
 }
 .ask div {
     margin: 10px 0 ;
-	display:inline-block;
-	
+    display:inline-block;
+    
 }
 .ask label {
-	margin: 13px 0 ;
+    margin: 13px 0 ;
     text-align:left;
-	vertical-align:middle;
-	float: inherit;
+    vertical-align:middle;
+    float: inherit;
 }
 .ask #submit {
-	background: #e06666;
+    background: #e06666;
     border: 2px solid #000000;
     box-shadow: 2px 3px 1px #000000;
     color: #ffffff;
     display: inline;
     margin: 0 5px;
     padding: 5px 10px;
-	width: 100%;
-	border-radius: 0;
+    width: 100%;
+    border-radius: 0;
 }
 .ask label i {
-	color: #f00;
+    color: #f00;
 }
 .ask #dropdownCategory {
-	text-align: left;
+    text-align: left;
 }
 
 .ask .dropdown-toggle  {
-	text-align: left;
-	margin-top: 8px;
+    text-align: left;
+    margin-top: 8px;
 }
 .ask button span {
-	float:right;
-	margin-top: 8px;
+    float:right;
+    margin-top: 8px;
 }
 
 @media screen and (min-width: 640px){
-	.answer-list {
-		margin-left: 60px;
-	}
+    .answer-list {
+        margin-left: 60px;
+    }
 }
 @media screen and (max-width: 320px){
-	.ask div {
-	display: block;
-	}
+    .ask div {
+    display: block;
+    }
 }
 @media screen and (max-width: 620px){
-	.media-body {
-		display:inline-block;
-	}
-	.media-body .col-md-12 , .col-md-1, .col-md-7 {
-		padding:0;
-		margin:0;
-	}
+    .media-body {
+        display:inline-block;
+    }
+    .media-body .col-md-12 , .col-md-1, .col-md-7 {
+        padding:0;
+        margin:0;
+    }
 }
 /*ask question end*/
 .reply {
-	float: right;
-	color: #f00;
+    float: right;
+    color: #f00;
 }
 
 .pull-right  li{
-	padding-left:0px;
+    padding-left:0px;
 }
 .pull-right li i {
-	padding-left:0px;
+    padding-left:0px;
 }
+/**Serch Page Begins**/
+.search-list{
+    margin-bottom: 25px;
+
+    .question-answer-bit{
+        .bit-title{
+            color: #E06666;
+        }
+
+        &:first-child .bit-title{
+            margin-top: 3px;
+        }    
+    }
+} 
+    
 
 @media screen and (max-width: 980px){
-	#second{
-		margin: 0;
-	}
-	.nav li a{
-		padding: 10px 8px!important;
-	}
-	.contact li {
+    #second{
+        margin: 0;
+    }
+    .nav li a{
+        padding: 10px 8px!important;
+    }
+    .contact li {
     padding: 0;
-	background: none;
+    background: none;
 }
-	.contact li a{
-		 padding: 0 7px;
-	}
+    .contact li a{
+         padding: 0 7px;
+    }
 }
 @media screen and (max-width: 480px){
-    	.copyright {
+        .copyright {
             text-align: center;
         }
     .copyright h5, .copyright span  {
         float: none;
     }
     .question h1{
-    	font-size: 18px;
+        font-size: 18px;
     }
     .list{
-    	margin-top: 14px;
-    	line-height: 28px;
+        margin-top: 14px;
+        line-height: 28px;
     }
 }
 
 @media screen and (max-width: 360px){
-	.contact{
-		float: left;
-	}
-	.tags li{
-		 padding: 5px;
-	}
-	.stats li{
-		font-size: 15px;
-		line-height: 37px;
-	}
-	.q-btn{
-		 float: left;
-	}
-	.list li{
-		 display: block;
-	}
+    .contact{
+        float: left;
+    }
+    .tags li{
+         padding: 5px;
+    }
+    .stats li{
+        font-size: 15px;
+        line-height: 37px;
+    }
+    .q-btn{
+         float: left;
+    }
+    .list li{
+         display: block;
+    }
 }
 
 .navbar.navbar-static-top {
